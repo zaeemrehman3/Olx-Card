@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; 
+  background-color: #f0f0f0; 
+  color: #333; 
+}
+
+/* Main App Container */
+.appContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Title Styles */
+.appTitle {
+  text-align: center;
+  color: #2c3e50; 
+  font-size: 2.5rem;
+  margin-bottom: 40px; 
+}
+
+/* Card Row */       
+.cardRow {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
+
+/* Card Styles */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+  width: 220px; 
+  margin: 15px; 
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden; 
+}
+
+/* Hover Effects */
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); 
+}
+
+/* Card Image */
+.card img {
+  width: 100%;
+  height: 150px; 
+  object-fit: cover; 
+}
+
+/* Description Styles */
+.card .description {
+  padding: 15px; 
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Price Styles */
+.card .price {
+  font-size: 1.4rem; 
+  font-weight: bold;
+  color: #27ae60; 
+  padding: 10px;
+}
+
+/* Location and Time Styles */
+.card .location,
+.card .time {
+  font-size: 0.9rem; 
+  color: #777;
+  padding: 5px 10px;
+}
